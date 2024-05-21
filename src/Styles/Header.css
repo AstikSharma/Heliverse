@@ -1,0 +1,131 @@
+@media all {
+  body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #545454;
+  }
+}
+
+@media all {
+  * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    background-color: black;
+  }
+
+  html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #545454;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .navbar-header {
+    font-size: 12px;
+    height: 54px;
+    background-color: #262626;
+    z-index: 100;
+    line-height: 54px;
+    margin-bottom: 1px;
+  }
+
+  *,:before,:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .navbar-logo {
+    float: left;
+    padding: 0 20px;
+  }
+
+  .navbar-actions {
+    float: right;
+  }
+
+  a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+  }
+
+  .navbar-logo a {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    text-indent: -9999px;
+    height: 18px;
+    width: 152px;
+    background: url(https://public-assets.envato-static.com/assets/logos/envato_market-dde916a48af7413e54aa058fe7ae6856752fca799da4bec355f00aea904bfa19.svg);
+    background-size: 152px 18px;
+  }
+
+  a:active,a:hover {
+    outline-width: 0;
+  }
+
+  .navbar-action-buy {
+    display: inline-block;
+    padding: 0 20px;
+  }
+
+  .btn-3d {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0;
+    border: none;
+    border-radius: 4px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .btn-3d {
+    background-color: gray;
+    color: white;
+    font-size: 14px;
+    padding: 5px 20px;
+    line-height: 1.5;
+    -webkit-box-shadow: 0 2px 0 #545454;
+    box-shadow: 0 2px 0 #545454;
+    position: relative;
+  }
+
+  .btn-3d-primary {
+    background-color: #82b440;
+  }
+
+  .btn-3d-primary {
+    -webkit-box-shadow: 0 2px 0 #6f9a37;
+    box-shadow: 0 2px 0 #6f9a37;
+    position: relative;
+  }
+
+  .btn-3d:hover, .btn-3d:active {
+    text-decoration: none;
+    outline: none;
+    background-color: #787878;
+  }
+
+  .btn-3d-primary:hover, .btn-3d-primary:active {
+    background-color: #7aa93c;
+  }
+}
+
+.logo {
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+}
